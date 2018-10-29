@@ -32,5 +32,5 @@ WebUI.click(findTestObject('Object Repository/Page_Home  Application/a_201 W COL
 
 WebUI.click(findTestObject('Object Repository/Page_Registration  Application/div_                        20'))
 
-WebUI.
+
 
