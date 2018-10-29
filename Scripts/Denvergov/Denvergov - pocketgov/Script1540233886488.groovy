@@ -17,7 +17,7 @@ WebUI.navigateToUrl('https://www.denvergov.org/pocketgov/#/')
 
 WebUI.click(findTestObject('Object Repository/Page_pocketgov/a_Report a Problem'))
 
-WebUI.waitForElementPresent(findTestObject('Page_pocketgov  Report a Problem/select_Select CategoryAbandone'), 3)
+WebUI.waitForElementPresent(findTestObject('Page_pocketgov  Report a Problem/select_Select CategoryAbandone'), 10)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_pocketgov  Report a Problem/select_Select CategoryAbandone'), 
     'REP_GRAFFITI', true)

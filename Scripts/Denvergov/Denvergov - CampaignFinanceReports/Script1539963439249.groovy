@@ -13,13 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.denvergov.org/content/denvergov/en/denver-elections-divison/campaign-information/campaign-finance/campaign-finance-archives.html')
 
 WebUI.setText(findTestObject('Object Repository/Page_Denver Elections Division  Cam/input_concat(Search by Year Or'), '2018')
 
 WebUI.waitForElementPresent(findTestObject('Page_Denver Elections Division  Cam/NumberOfResults'), 5)
 
-attribute = WebUI.getAttribute(findTestObject('Page_Denver Elections Division  Cam/NumberOfResults'), 'value')
+not_run: attribute = WebUI.getAttribute(findTestObject('Page_Denver Elections Division  Cam/NumberOfResults'), 'value')
 

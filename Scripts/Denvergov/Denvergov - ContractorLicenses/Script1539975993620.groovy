@@ -19,7 +19,7 @@ WebUI.setText(findTestObject('Page_Verify a Contractors License/input_Check whet
 
 WebUI.click(findTestObject('Page_Verify a Contractors License/button_Search'))
 
-WebUI.waitForElementNotVisible(findTestObject('Page_Verify a Contractors License/div_Searching...'), 3)
+WebUI.waitForElementNotVisible(findTestObject('Page_Verify a Contractors License/div_Searching...'), 8)
 
 WebUI.click(findTestObject('Page_Verify a Contractors License/div_DENVER DRYWALL COMPANY'))
 

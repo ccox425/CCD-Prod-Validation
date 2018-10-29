@@ -15,17 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://www.denvergov.org/recyclingsignup')
 
-WebUI.setText(findTestObject('Page_Home Page/input_Number_form-control ng-u'), '201')
-
-WebUI.selectOptionByValue(findTestObject('Page_Home Page/select_Select Direction.......'), '4', true)
-
-WebUI.waitForElementClickable(findTestObject('Page_Home Page/select_Select Direction.......'), 2)
-
-WebUI.selectOptionByValue(findTestObject('Page_Home Page/select_Select Street Name.....'), '209', true)
-
-WebUI.selectOptionByValue(findTestObject('Page_Home Page/select_Select Qualifier.......'), '3', true)
+WebUI.setText(findTestObject('Object Repository/Page_Home Page/input_Number_form-control ng-u (1)'), '201')
 
 WebUI.click(findTestObject('Page_Home Page/button_Search'))
 
-WebUI.click(findTestObject('Page_Home Page/td_201 W COLFAX AV'))
+WebUI.waitForElementPresent(findTestObject('Page_Home Page/a_201  ACOMA ST'), 8)
+
+WebUI.click(findTestObject('Object Repository/Page_Home Page/a_201  ACOMA ST'))
 
