@@ -4,7 +4,17 @@
    <name>iframe_Arts and Venues Advance</name>
    <tag></tag>
    <elementGuidId>542bb37b-7606-4061-be57-fe4b6016c69f</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@id = 'frame-one1455703210' and @src = 'https://fs7.formsite.com/res/showFormEmbed?EParam=vIGmKZCQ4HpqXOCPI4Cq0g6pUM4dgh5hFzpUCZwnDno%3D&amp;1455703210&amp;EmbedId=1455703210&amp;MobileResponsive']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe[@id='frame-one1455703210']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

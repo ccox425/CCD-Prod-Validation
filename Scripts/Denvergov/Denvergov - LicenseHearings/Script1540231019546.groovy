@@ -15,7 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://www.denvergov.org/licensehearings')
 
+WebUI.waitForElementPresent(findTestObject('Page_E  L Public Hearing Schedule/BusinessName_Liquor'), 10)
+
 WebUI.click(findTestObject('Object Repository/Page_E  L Public Hearing Schedule/BusinessName_Liquor'))
+
+WebUI.waitForElementVisible(findTestObject('Page_E  L Public Hearing Schedule/button_OK'), 2)
 
 WebUI.click(findTestObject('Object Repository/Page_E  L Public Hearing Schedule/button_OK'))
 

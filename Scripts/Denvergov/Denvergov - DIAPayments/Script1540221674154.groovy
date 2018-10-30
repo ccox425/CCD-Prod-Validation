@@ -17,7 +17,7 @@ WebUI.navigateToUrl('https://www.denvergov.org/payments/dia/vendors')
 
 WebUI.click(findTestObject('Object Repository/Page_DEN Payments/div_Pay by customer code'))
 
-WebUI.waitForElementClickable(findTestObject('Page_DEN Payments/button_I accept'), 3)
+WebUI.waitForElementVisible(findTestObject('Page_DEN Payments/button_I accept'), 3)
 
 WebUI.click(findTestObject('Object Repository/Page_DEN Payments/button_I accept'))
 
