@@ -15,7 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://www.denvergov.org/content/denvergov/en/city-of-denver-home/online-services-center/arts-and-venues-event-settlement-payment.html')
 
-WebUI.waitForElementPresent(findTestObject('Page_Arts and Venues Event Settleme/iframe_Arts and Venues Event S'), 2)
+not_run: WebUI.switchToFrame(findTestObject('Page_Arts and Venues Event Settleme/iframe_Arts and Venues Event S'), 2)
 
-WebUI.setText(findTestObject('Page_Arts and Venues Event Settleme/input__RESULT_TextField-0'), 'Test')
+not_run: WebUI.setText(findTestObject('Page_Arts and Venues Event Settleme/input__RESULT_TextField-0'), 'Test')
+
+current = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(current, 'Arts and Venues Event Settlement Payment', false)
 

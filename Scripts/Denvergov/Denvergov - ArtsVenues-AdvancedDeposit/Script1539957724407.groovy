@@ -13,9 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.navigateToUrl('https://www.denvergov.org/content/denvergov/en/city-of-denver-home/online-services-center/arts-and-venues-advanced-deposit.html')
 
-WebUI.switchToFrame(findTestObject('Page_Arts and Venues Advanced Depos/iframe_Arts and Venues Advance'), 2)
+not_run: WebUI.switchToFrame(findTestObject('Page_Arts and Venues Advanced Depos/iframe_Arts and Venues Advance'), 2)
 
-WebUI.setText(findTestObject('Page_Arts and Venues Advanced Depos/input__RESULT_TextField-0'), 'Test')
+not_run: WebUI.setText(findTestObject('Page_Arts and Venues Advanced Depos/input__RESULT_TextField-0'), 'Test')
 
+current = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(current,'Arts and Venues Advanced Deposit' , false)
