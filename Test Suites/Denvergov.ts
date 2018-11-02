@@ -4,7 +4,7 @@
    <name>Denvergov</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-31T08:23:50</lastRun>
+   <lastRun>2018-11-02T09:32:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -40,6 +40,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Denvergov/Denvergov - ContractorLicenses</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>399a7e08-829f-4de5-980f-619e42ceb214</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Denvergov/Denvergov - Campaign Finance Admin</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>81ffe6ad-ca14-475d-9a87-077026df0ffd</guid>

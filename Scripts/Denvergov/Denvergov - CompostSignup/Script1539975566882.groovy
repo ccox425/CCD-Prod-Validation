@@ -15,22 +15,20 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://www.denvergov.org/compostsignup')
 
-WebUI.setText(findTestObject('Object Repository/Page_Home  Application/input_Number_form-control'), '201')
+WebUI.setText(findTestObject('Object Repository/Page_Home  Application/input_Number_form-control (1)'), '201')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Home  Application/select_Filter Direction......N'), 'W', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Home  Application/select_Filter Direction......N (1)'), 
+    'W', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Home  Application/select_Filter Street Name ....'), 'COLFAX', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Home  Application/select_Filter Street Name .... (1)'), 
+    'COLFAX', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Home  Application/select_Filter Qualifier......A'), 'AVE', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Home  Application/select_Filter Qualifier......A (1)'), 
+    'AVE', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Home  Application/button_Search'))
+WebUI.click(findTestObject('Object Repository/Page_Home  Application/button_Search_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home  Application/a_201 W COLFAX AV'))
+WebUI.click(findTestObject('Object Repository/Page_Home  Application/a_201 W COLFAX AV (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Registration  Application/div_                        20'))
-
-
+WebUI.click(findTestObject('Page_Registration  Application/div_                        20'))
 

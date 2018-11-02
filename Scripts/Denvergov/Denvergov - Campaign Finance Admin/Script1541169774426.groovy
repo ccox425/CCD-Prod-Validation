@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://www.denvergov.org/contractorlicenses')
+WebUI.navigateToUrl('https://www.denvergov.org/campaignfinanceadmin/Account/LogOn?ReturnUrl=%2fcampaignfinanceadmin%2f')
 
-WebUI.setText(findTestObject('Page_Verify a Contractors License/input_Check whether a contract'), 'Denver')
+WebUI.setText(findTestObject('Page_Log On/input__UserName'), '134527')
 
-WebUI.click(findTestObject('Page_Verify a Contractors License/button_Search'))
+WebUI.setEncryptedText(findTestObject('Page_Log On/input__Password'), '1/CUeUXHf5qK7pSmcX5wSQ==')
 
-WebUI.waitForElementNotVisible(findTestObject('Page_Verify a Contractors License/div_Searching...'), 20)
+WebUI.click(findTestObject('Page_Log On/input__btnLogin'))
 
-WebUI.click(findTestObject('Page_Verify a Contractors License/div_DENVER DRYWALL COMPANY'))
+WebUI.verifyTextPresent('Cox, Cameron M. - TS Sr IT Systems Analyst ', false)
 

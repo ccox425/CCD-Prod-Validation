@@ -22,15 +22,15 @@ WebUI.click(findTestObject('Object Repository/Page_ARIES/a_ARIESImpound'))
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Page_ARIESImpound/button_Search'), 5)
+WebUI.waitForElementClickable(findTestObject('Page_ARIESImpound/button_Search'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_ARIESImpound/button_Search'))
 
 attribute = WebUI.getText(findTestObject('Page_ARIESImpound/FirstRecord', [('variable') : 'attribute']))
 
-if(attribute == ''){throw new Exception("Value not found")}
+if (attribute == '') {
+    throw new Exception('Value not found')
+}
 
 WebUI.closeBrowser()
-
-
 

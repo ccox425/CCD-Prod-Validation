@@ -19,7 +19,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Home Page/input_Number_form
 
 WebUI.click(findTestObject('Page_Home Page/button_Search'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Home Page/a_201  ACOMA ST'), 8)
+WebUI.waitForElementPresent(findTestObject('Page_Home Page/a_201  ACOMA ST'), 20)
 
 WebUI.click(findTestObject('Object Repository/Page_Home Page/a_201  ACOMA ST'))
 
