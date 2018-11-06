@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://www.denvergov.org/denverapps/csa-hearings-files/R-20170405-003/index_server.html')
 
-WebUI.waitForElementPresent(findTestObject('Page_Angular 2 QuickStart/input_Username_Username'), 5)
+WebUI.waitForElementPresent(findTestObject('Page_Angular 2 QuickStart/input_Username_Username'), 10)
 
 WebUI.setText(findTestObject('Object Repository/Page_Angular 2 QuickStart/input_Username_Username'), 'Test')
 

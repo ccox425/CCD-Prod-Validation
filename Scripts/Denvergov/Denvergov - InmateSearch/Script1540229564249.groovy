@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://www.denvergov.org/inmatesearch')
 
+WebUI.waitForElementPresent(findTestObject('Page_Inmate Search/input_Search_SearchBox'), 5)
+
 WebUI.setText(findTestObject('Page_Inmate Search/input_Search_SearchBox'), 'smith')
 
 WebUI.click(findTestObject('Page_Inmate Search/button_Search'))
