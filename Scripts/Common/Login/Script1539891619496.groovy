@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.setText(findTestObject('Object Repository/Page_Login - CCD/input_City Email Address_usern'), 'automation.user@denvergov.org')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login - CCD/input_Network Password_passwor'), 'AHzSUGJgRo1s8nlydw1nHA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login - CCD/input_Network Password_passwor'), 'heFTsbbJrLoDHvoZhharIg==')
 
 WebUI.click(findTestObject('Object Repository/Page_Login - CCD/input_Network Password_formBut'))
 

@@ -14,8 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://aries.autoreturn.com/denco/')
 
 WebUI.click(findTestObject('Object Repository/Page_ARIES/a_ARIESImpound'))
@@ -31,6 +29,4 @@ attribute = WebUI.getText(findTestObject('Page_ARIESImpound/FirstRecord', [('var
 if (attribute == '') {
     throw new Exception('Value not found')
 }
-
-WebUI.closeBrowser()
 

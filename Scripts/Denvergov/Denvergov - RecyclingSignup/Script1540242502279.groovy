@@ -10,8 +10,10 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException as WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+
 
 WebUI.navigateToUrl('https://www.denvergov.org/recyclingsignup')
 
@@ -23,7 +25,19 @@ WebUI.delay(1)
 
 WebUI.doubleClick(findTestObject('Page_Home Page/button_Search'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Home Page/a_201  ACOMA ST'), 20)
+try {
+    WebUI.waitForElementClickable(findTestObject('Page_Home Page/a_201  ACOMA ST'), 5)
+	
+	WebUI.click(findTestObject('Object Repository/Page_Home Page/a_201  ACOMA ST'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home Page/a_201  ACOMA ST'))
+    
+}
+catch (WebElementNotFoundException ex) {
+	System.println("Still not here")
+	
+	WebUI.click(findTestObject('Page_Home Page/button_Search'))
+	
+	WebUI.waitForElementVisible(findTestObject('Page_Home Page/a_201  ACOMA ST'), 5)
 
+	WebUI.click(findTestObject('Object Repository/Page_Home Page/a_201  ACOMA ST'))
+} 
