@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.openqa.selenium.ElementNotVisibleException as ElementNotVisibleException
+import org.openqa.selenium.InvalidElementStateException as InvalidElementStateException
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -13,13 +15,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://www.denvergov.org/inmatesearch')
+WebUI.navigateToUrl('https://accelawebprod1.gov.dnvr/security/hostSignon.do')
 
-WebUI.waitForElementPresent(findTestObject('Page_Inmate Search/input_Search_SearchBox'), 5)
+WebUI.setText(findTestObject('Object Repository/Page_Accela Automation - Secure Log/input_servProvCode'), 'Denver')
 
-WebUI.setText(findTestObject('Page_Inmate Search/input_Search_SearchBox'), 'smith')
+WebUI.doubleClick(findTestObject('Object Repository/Page_Accela Automation - Secure Log/input_username'))
 
-WebUI.click(findTestObject('Page_Inmate Search/button_Search'))
+WebUI.setText(findTestObject('Object Repository/Page_Accela Automation - Secure Log/input_username'), '999992')
 
-WebUI.click(findTestObject('Page_Inmate Search/a_SMITH'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Accela Automation - Secure Log/input_password'), 'heFTsbbJrLoDHvoZhharIg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Accela Automation - Secure Log/input_submit_'))
+
+WebUI.click(findTestObject('Object Repository/Page_Accela Automation/a'))
 
