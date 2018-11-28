@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://www.denvergov.org/parkcitations')
+WebUI.navigateToUrl('https://denvergov.org/parkcitations')
 
-WebUI.click(findTestObject('Object Repository/Page_Pay Park Citations/button_Submit'))
+WebUI.setText(findTestObject('Object Repository/Page_Item Details/input_Invoice _ucPOSWebDisplay'), '123456')
+
+WebUI.click(findTestObject('Object Repository/Page_Item Details/input_Select the Return button'))
+
+WebUI.click(findTestObject('Page_Item Details/div_No valid data. Please ente'), FailureHandling.STOP_ON_FAILURE)
 
