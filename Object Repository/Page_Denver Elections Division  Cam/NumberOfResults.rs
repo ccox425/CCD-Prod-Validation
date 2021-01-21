@@ -14,7 +14,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Search by Year Or Keyword (e.g. ', &quot;'&quot;, '2016', &quot;'&quot;, ', ', &quot;'&quot;, 'Municipal', &quot;'&quot;, ', etc.)')])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,24 +41,28 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Search by Year Or Keyword (e.g. ', &quot;'&quot;, '2016', &quot;'&quot;, ', ', &quot;'&quot;, 'Municipal', &quot;'&quot;, ', etc.)')])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('2018 Issue CoPIRG', &quot;'&quot;, 's_Democracy_for_the_People_Committee')])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('2018 Municipal O', &quot;'&quot;, 'Brien_Timothy')])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//ol/li/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -4,19 +4,13 @@
    <name>Denvergov</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T12:16:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>11f5980d-be74-4c66-9fd5-92faf980d51d</testSuiteGuid>
-   <testCaseLink>
-      <guid>3134140d-8d37-4560-ad58-d0e088f06e64</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Denvergov/Denvergov - ArtsVenues-EventSettlement</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>e5be9aa0-675f-4c87-ba16-a2f590935fd0</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -84,12 +78,6 @@
       <testCaseId>Test Cases/Denvergov/Denvergov - CityContracts</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6093e37b-0931-4aa7-ad7a-25a99c98dabe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Denvergov/Denvergov - Denver8Schedule</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>755009cc-7319-4a51-a246-d1b2ca0a4427</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -106,12 +94,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Denvergov/Denvergov - CSAHearingsFileSearch</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e7f1fa6d-03c3-4277-bf6d-94222815c344</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Denvergov/Denvergov - AnimalShelter</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6260ed02-0730-4c11-ad12-1e2c6c56d0a7</guid>
@@ -204,22 +186,10 @@
       <testCaseId>Test Cases/Denvergov/Denvergov - PoliceRecords</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d30baef-9f78-4abf-abd5-aec1df6e57c2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Denvergov/Denvergov - ArtsVenues-AdvancedDeposit</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4a706025-3a61-401d-88aa-9f2b6c2677cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Denvergov/Denvergov - eForclosure</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>519f46c4-b8db-404e-a746-5b29a4d14799</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Denvergov/Denvergov - ElectionArchive</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5326cbf6-76e5-4317-b781-26712649adfd</guid>

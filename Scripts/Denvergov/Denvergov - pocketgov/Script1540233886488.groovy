@@ -12,13 +12,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://www.denvergov.org/pocketgov/#/')
 
-WebUI.click(findTestObject('Object Repository/Page_pocketgov/a_Report a Problem'))
+WebUI.click(findTestObject('Object Repository/Page_pocketgov/span_Report a Problem'))
 
-WebUI.waitForElementPresent(findTestObject('Page_pocketgov  Report a Problem/select_Select CategoryAbandone'), 10)
+WebUI.click(findTestObject('Object Repository/Page_pocketgov  Report a Problem/a_I UNDERSTAND AND WANT TO REPORT A NON-EME_0181e2'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_pocketgov  Report a Problem/select_Select CategoryAbandone'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_pocketgov  Report a Problem/select_Select CategoryAbandoned VehicleAnim_cd8dc2'), 
     'REP_GRAFFITI', true)
 

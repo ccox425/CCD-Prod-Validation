@@ -17,7 +17,7 @@ WebUI.navigateToUrl('https://www.denvergov.org/campaignfinanceadmin/Account/LogO
 
 WebUI.setText(findTestObject('Page_Log On/input__UserName'), '134527')
 
-WebUI.setEncryptedText(findTestObject('Page_Log On/input__Password'), '1/CUeUXHf5qz8mGJrrTs+g==')
+WebUI.setEncryptedText(findTestObject('Page_Log On/input__Password'), 'L+46GMxahPnRaqrRkuozOw==')
 
 WebUI.click(findTestObject('Page_Log On/input__btnLogin'))
 

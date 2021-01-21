@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify you can get to page and interact with an element</description>
-   <name>Denvergov - ArtsVenues-AdvancedDeposit</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8dd74ef3-8f2a-49ad-97cd-0fa785191c06</testCaseGuid>
-</TestCaseEntity>

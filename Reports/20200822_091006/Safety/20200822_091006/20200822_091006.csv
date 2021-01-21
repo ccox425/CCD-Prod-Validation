@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Safety,Chrome 79.0.3945.130,,,2020-08-22 09:10:10,2020-08-22 09:23:19,13m - 9.054s,FAILED
+,,,,,,,
+Test Cases/Safety/JSC,Chrome 79.0.3945.130,,,2020-08-22 09:10:14,2020-08-22 09:11:01,47.623s,FAILED
+"navigateToUrl(""http://safetyweb/JuvenileServiceCenter/Account/Login?ReturnUrl=%2fJuvenileServiceCenter%2f"")",Chrome 79.0.3945.130,,,2020-08-22 09:10:14,2020-08-22 09:10:15,1.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_Juvenile Service Center/input_Email_Email""), ""loadtest@denvergov.org"")",Chrome 79.0.3945.130,,,2020-08-22 09:10:15,2020-08-22 09:11:01,46.132s,FAILED
+,,,,,,,
+Test Cases/Safety/OfficerLookup,Chrome 79.0.3945.130,,,2020-08-22 09:11:02,2020-08-22 09:11:20,18.600s,PASSED
+"navigateToUrl(""http://safetyweb/officerlookup/"")",Chrome 79.0.3945.130,,,2020-08-22 09:11:02,2020-08-22 09:11:03,1.820s,PASSED
+"setText(findTestObject(""Object Repository/Page_Search  Application/input_Officer Lookup_SearchBox""), ""Brown"")",Chrome 79.0.3945.130,,,2020-08-22 09:11:03,2020-08-22 09:11:05,1.278s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  Application/button_Search""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:05,2020-08-22 09:11:05,0.356s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  Application/td_Brown""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:05,2020-08-22 09:11:19,13.597s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  Application/button_Clear Results""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:19,2020-08-22 09:11:19,0.330s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  Application/a_Clear Results_fa fa-question""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:19,2020-08-22 09:11:20,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  Application/span_Officer lookup - Help_fa""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:20,2020-08-22 09:11:20,0.529s,PASSED
+,,,,,,,
+Test Cases/Safety/SCOT,Chrome 79.0.3945.130,,,2020-08-22 09:11:20,2020-08-22 09:11:31,10.666s,PASSED
+"navigateToUrl(""http://safetyweb/scot/"")",Chrome 79.0.3945.130,,,2020-08-22 09:11:20,2020-08-22 09:11:22,2.195s,PASSED
+"setText(findTestObject(""Object Repository/Page_Search  SCOT/input_Add New Client_HomeSearc""), ""Smith"")",Chrome 79.0.3945.130,,,2020-08-22 09:11:22,2020-08-22 09:11:26,3.664s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  SCOT/button_Search""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:26,2020-08-22 09:11:26,0.347s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 79.0.3945.130,,,2020-08-22 09:11:26,2020-08-22 09:11:28,2.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Search  SCOT/span_KENNEDY-SMITH""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:28,2020-08-22 09:11:29,0.334s,PASSED
+"verifyElementPresent(findTestObject(""Page_Youth  SCOT/td_07202000""), 0)",Chrome 79.0.3945.130,,,2020-08-22 09:11:29,2020-08-22 09:11:31,1.960s,PASSED
+,,,,,,,
+Test Cases/Safety/VAU,Chrome 79.0.3945.130,,,2020-08-22 09:11:31,2020-08-22 09:23:19,11m - 48.231s,FAILED
+"navigateToUrl(""http://safetyweb/VictimAssistanceUnit/"")",Chrome 79.0.3945.130,,,2020-08-22 09:11:31,2020-08-22 09:11:33,1.654s,PASSED
+"setText(findTestObject(""Page_Victim Assistance Case Manager/input_Manage Reference Tables_""), ""Smith"")",Chrome 79.0.3945.130,,,2020-08-22 09:11:33,2020-08-22 09:11:34,1.771s,PASSED
+"click(findTestObject(""Page_Victim Assistance Case Manager/button_Search""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:34,2020-08-22 09:11:35,0.667s,PASSED
+"waitForElementPresent(findTestObject(""Page_Victim Assistance Case Manager/td_SMITH""), 5)",Chrome 79.0.3945.130,,,2020-08-22 09:11:35,2020-08-22 09:11:35,0.004s,NOT_RUN
+"verifyElementPresent(findTestObject(""Page_Victim Assistance Case Manager/td_SMITH""), 0)",Chrome 79.0.3945.130,,,2020-08-22 09:11:35,2020-08-22 09:11:36,1.349s,PASSED
+"click(findTestObject(""Page_Victim Assistance Case Manager/body_Victim Assistance Case Ma""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:36,2020-08-22 09:11:37,0.321s,PASSED
+"click(findTestObject(""Page_Victim Assistance Case Manager/body_Victim Assistance Case Ma""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:37,2020-08-22 09:11:37,0.297s,PASSED
+"click(findTestObject(""Page_Victim Assistance Case Manager/a_Reports""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:37,2020-08-22 09:11:38,0.572s,PASSED
+"click(findTestObject(""Page_Victim Assistance Case Manager/a_Audit Logs""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:38,2020-08-22 09:11:39,1.806s,PASSED
+"click(findTestObject(""Page_Victim Assistance Case Manager/a_Administration""))",Chrome 79.0.3945.130,,,2020-08-22 09:11:39,2020-08-22 09:23:19,11m - 39.627s,FAILED

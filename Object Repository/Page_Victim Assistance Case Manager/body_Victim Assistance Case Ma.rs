@@ -196,6 +196,33 @@
                     
                     
                         
+                            V2018-160049
+                            2018811790
+                            SMITH
+                            MELISSA
+                            August 14, 1992
+                            November 30, 2018
+                        
+                    
+                        
+                            V2018-160092
+                            2018812974
+                            SMITH
+                            MICHAEL
+                            August 14, 1967
+                            November 29, 2018
+                        
+                    
+                        
+                            V2018-159951
+                            2018807327
+                            SMITH
+                            HEATHER
+                            July 3, 1971
+                            November 28, 2018
+                        
+                    
+                        
                             V2018-159769
                             2018797314
                             SMITH
@@ -258,33 +285,6 @@
                             November 11, 2018
                         
                     
-                        
-                            V2018-159315
-                            2018769635
-                            SMITH
-                            JASON
-                            March 22, 1974
-                            November 11, 2018
-                        
-                    
-                        
-                            V2018-159285
-                            2018767748
-                            SMITH
-                            SHIRLEY
-                            October 5, 1989
-                            November 10, 2018
-                        
-                    
-                        
-                            V2018-159091
-                            2018753062
-                            SMITH
-                            HANNAH
-                            May 1, 1998
-                            November 4, 2018
-                        
-                    
                 
             
 
@@ -318,7 +318,7 @@
 
 
 
-    var searchText = 'smith';
+    var searchText = 'Smith';
     var apiLocation = '/VictimAssistanceUnit/api/';
     localStorage.pageSize = localStorage.pageSize == null ? 10 : localStorage.pageSize;
     localStorage.sortCases = localStorage.sortCases == null ? 'CaseDate:DESC' : localStorage.sortCases;

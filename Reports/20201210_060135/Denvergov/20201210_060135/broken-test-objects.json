@@ -1,0 +1,53 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Denver Elections Division  Cam/NumberOfResults",
+      "brokenLocator": "//span[(text() \u003d \u0027 82 \u0027 or . \u003d \u0027 82 \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027Search by Year Or Keyword (e.g. \u0027, \"\u0027\", \u00272016\u0027, \"\u0027\", \u0027, \u0027, \"\u0027\", \u0027Municipal\u0027, \"\u0027\", \u0027, etc.)\u0027)])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201210_060135/Denvergov/20201210_060135/Object Repository/Page_Denver Elections Division  Cam/NumberOfResults_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_City Contracts 2018/p_Pleaseemail usforcity contra",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027City Contracts\u0027])[1]/following::p[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027pocketgov\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201210_060135/Denvergov/20201210_060135/Object Repository/Page_City Contracts 2018/p_Pleaseemail usforcity contra_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Angular 2 QuickStart/input_Username_Username",
+      "brokenLocator": "//input[@id\u003d\u0027Username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201210_060135/Denvergov/20201210_060135/Object Repository/Page_Angular 2 QuickStart/input_Username_Username_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_E  L Public Hearing Schedule/BusinessName_Liquor",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027Liquor\u0027]/table/tbody/tr/td",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201210_060135/Denvergov/20201210_060135/Object Repository/Page_E  L Public Hearing Schedule/BusinessName_Liquor_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Business Licensing Center/div_x     Community Input Requ",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Denver Business Licensing Center\u0027])[1]/following::div[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201210_060135/Denvergov/20201210_060135/Object Repository/Page_Business Licensing Center/div_x     Community Input Requ_position.png"
+    }
+  ]
+}
